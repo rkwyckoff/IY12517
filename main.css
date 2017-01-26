@@ -43,17 +43,22 @@ float: left;
 border-bottom: solid lightgrey 1px;
 font-family:sans-serif;
 color: lightgrey;
-padding-top: 0px;
+padding-top: 10px;
+padding-bottom: 10px;
 font-size:  12px;
 
 
 
+}
+ .image-caption span:last-of-type {
+  margin-right: 10px;
 }
 .image-caption {
 float: right;
 }
 .image-caption a {
   text-decoration: none;
+  font-weight: bold;
 }
 .image-number::before {
   content: "#";
